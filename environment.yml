@@ -5,6 +5,8 @@ channels:
   - defaults
 dependencies:
   - pytorch
-  - torchvision
   - matplotlib
+  - pip
+  - pip:
+    - torchvision
 prefix: /Users/jmosseri/miniconda3/envs/Lab8
