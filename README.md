@@ -6,7 +6,7 @@ When a project is expected to be run across different machines, having the same 
 
 ## Using argsparse
 
-In this Lab, we will be using a package called argsparse which comes preinstalled with python (like other libraries such as collections, etc.). The purpose of argsparse is to be able to select variables for our code directly from the command line using flags. For example, if we wanted to run the code with 5 epochs, we will be able to run the following command in our command line: <code> python main.py --epochs 5 </code>. This allows us to be more general when writing the code and then to chose these parameters later on when we are running our code.
+In this Lab, we will be using a package called argsparse which comes preinstalled with python (like other libraries such as collections, etc.). The purpose of argsparse is to be able to select variables for our code directly from the command line using flags. For example, if we wanted to run the code with 5 epochs, we will be able to run the following command in our command line: <code> python main.py --epochs 5 </code>. This allows us to be more general when writing the code and then to chose these parameters later on when we are running our code. The following tutorial may be helpful: https://docs.python.org/3/howto/argparse.html
 
 ## Using .gitignore
 
